@@ -1,4 +1,4 @@
-# Investigating Rare Concurrency Failures in UNUserNotificationCenter’s RequestAuthorization on iOS
+# Investigating Rare Bugs in UNUserNotificationCenter’s RequestAuthorization on iOS
 
 
 This repository demonstrates a rare issue observed when using UNUserNotificationCenter.current().requestAuthorization on iOS.<br>
