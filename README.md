@@ -2,8 +2,8 @@
 
 
 This repository demonstrates a rare issue observed when using UNUserNotificationCenter.current().requestAuthorization on iOS.<br>
- In certain situations, the completion handler of the authorization request may not be invoked, resulting in a deadlock-like state where execution remains suspended indefinitely.<br>
-  This project includes a BlockingSimulationView and related code to reproduce and analyze these behaviors, particularly in relation to thread execution and MainActor isolation.
+In certain situations, the completion handler of the authorization request may not be invoked, resulting in a deadlock-like state where execution remains suspended indefinitely.<br>
+This project includes a BlockingSimulationView and related code to reproduce and analyze these behaviors, particularly in relation to thread execution and MainActor isolation.
 
 
 <br><br>
